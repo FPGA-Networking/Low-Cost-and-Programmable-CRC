@@ -1,4 +1,4 @@
-# Low-Cost-and-High-Perf-CRC
+# Low-Cost-and-Programmable-CRC
 
 Two algorithms and a method are given here to implement a low-cost and high performance CRC. The ethernet CRC32 is used here, because it is the most used CRC. The design is developed by verilog and it is verified in VC709 FPGA board. More information can be founded in paper "Low-Cost and Programmable CRC Implementation based on FPGA".
 
