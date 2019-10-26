@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probeData version="2" minor="1">
+  <probeset name="EDA_PROBESET" active="true">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="6"/>
+      </probeOptions>
+      <nets>
+        <net name="lut_din[5]"/>
+        <net name="lut_din[4]"/>
+        <net name="lut_din[3]"/>
+        <net name="lut_din[2]"/>
+        <net name="lut_din[1]"/>
+        <net name="lut_din[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="lut_dout"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="HW_ILA" value="u_ila_0"/>
+        <Option Id="PROBE_PORT" value="2"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="64"/>
+      </probeOptions>
+      <nets>
+        <net name="dout[63]"/>
+        <net name="dout[62]"/>
+        <net name="dout[61]"/>
+        <net name="dout[60]"/>
+        <net name="dout[59]"/>
+        <net name="dout[58]"/>
+        <net name="dout[57]"/>
+        <net name="dout[56]"/>
+        <net name="dout[55]"/>
+        <net name="dout[54]"/>
+        <net name="dout[53]"/>
+        <net name="dout[52]"/>
+        <net name="dout[51]"/>
+        <net name="dout[50]"/>
+        <net name="dout[49]"/>
+        <net name="dout[48]"/>
+        <net name="dout[47]"/>
+        <net name="dout[46]"/>
+        <net name="dout[45]"/>
+        <net name="dout[44]"/>
+        <net name="dout[43]"/>
+        <net name="dout[42]"/>
+        <net name="dout[41]"/>
+        <net name="dout[40]"/>
+        <net name="dout[39]"/>
+        <net name="dout[38]"/>
+        <net name="dout[37]"/>
+        <net name="dout[36]"/>
+        <net name="dout[35]"/>
+        <net name="dout[34]"/>
+        <net name="dout[33]"/>
+        <net name="dout[32]"/>
+        <net name="dout[31]"/>
+        <net name="dout[30]"/>
+        <net name="dout[29]"/>
+        <net name="dout[28]"/>
+        <net name="dout[27]"/>
+        <net name="dout[26]"/>
+        <net name="dout[25]"/>
+        <net name="dout[24]"/>
+        <net name="dout[23]"/>
+        <net name="dout[22]"/>
+        <net name="dout[21]"/>
+        <net name="dout[20]"/>
+        <net name="dout[19]"/>
+        <net name="dout[18]"/>
+        <net name="dout[17]"/>
+        <net name="dout[16]"/>
+        <net name="dout[15]"/>
+        <net name="dout[14]"/>
+        <net name="dout[13]"/>
+        <net name="dout[12]"/>
+        <net name="dout[11]"/>
+        <net name="dout[10]"/>
+        <net name="dout[9]"/>
+        <net name="dout[8]"/>
+        <net name="dout[7]"/>
+        <net name="dout[6]"/>
+        <net name="dout[5]"/>
+        <net name="dout[4]"/>
+        <net name="dout[3]"/>
+        <net name="dout[2]"/>
+        <net name="dout[1]"/>
+        <net name="dout[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:2"/>
+        <Option Id="HW_VIO" value="u_rst_vio"/>
+        <Option Id="OUTPUT_VALUE" value=""/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="rst_n"/>
+      </nets>
+    </probe>
+  </probeset>
+</probeData>
