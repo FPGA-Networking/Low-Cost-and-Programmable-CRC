@@ -1,12 +1,17 @@
-NUM = 956447
+#NUM = 956447
 
-f_read = open('X:/project/TEST_2019/read_frames/jtag_axi_icap_lut_AX7103/py_code/txt/xor_bin.txt', 'r')
+f_read = open('X:/project/TEST_2019/read_frames/jtag_axi_icap_lut_AX7103/py_code/txt/xor_bin.rbt', 'r')
 f_write= open('X:/project/TEST_2019/read_frames/jtag_axi_icap_lut_AX7103/py_code/txt/xor_hex.txt', 'w')
 a=f_read.readlines()
-b=list(range(0,NUM))
+
+NUM = 0
+for ite in a:
+    NUM += 1
+
+b=list(range(0,NUM-7))
 
 for i in range(0,NUM):
-	b[i]='{:08x}'.format(int(a[i],2)) 
+	b[i]='{:08x}'.format(int(a[i+7],2)) 
 	f_write.writelines(b[i])
 	f_write.writelines('\n')
  	
