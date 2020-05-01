@@ -16,7 +16,7 @@ This method is least described in the paper but most described here. As far as w
 first open source code covering the whole procedure of programming a single LUT. A complete procedure is described in the document, and the code(including tcl, python and verilog) are given here.
 
 ## Segmented Architecture
-The source code of proprsed segmented architecture can be accessed here.
+The source code of proprsed segmented architecture can be accessed here. After adding the verilog source files in this folder to Modelsim, we can run a simulation. 
 
 ## Test result
 The synthesis result, which is present as a vivado synthesis report is given here. The LUTs consumption and frequency can be founded. The throughput of segmented architecture on various frame length (64bytes to 1518 bytes) can be founded.
