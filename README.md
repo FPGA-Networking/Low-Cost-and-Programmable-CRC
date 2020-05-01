@@ -21,5 +21,3 @@ The source code of proprsed segmented architecture can be accessed here.
 ## Test result
 The synthesis result, which is present as a vivado synthesis report is given here. The LUTs consumption and frequency can be founded. The throughput of segmented architecture on various frame length (64bytes to 1518 bytes) can be founded.
 
-
-
