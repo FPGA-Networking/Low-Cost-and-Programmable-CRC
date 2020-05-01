@@ -15,6 +15,11 @@ The algorithm is used to solve the final beat problem, which is descriped in the
 This method is least described in the paper but most described here. As far as we know, this is the
 first open source code covering the whole procedure of programming a single LUT. A complete procedure is described in the document, and the code(including tcl, python and verilog) are given here.
 
+## Segmented Architecture
+The source code of proprsed segmented architecture can be accessed here.
+
 ## Test result
-The synthesis result, which is present as a vivado synthesis report is given here. The LUTs consumption and frequency can be founded.
-The board-level implementation result is given. Resaults in Spirent TestCenter are presented. Vio is presented in vivado hardware manager to show the "Error Frame Statistics Result" and "Error Frame Statistics Result".
+The synthesis result, which is present as a vivado synthesis report is given here. The LUTs consumption and frequency can be founded. The throughput of segmented architecture on various frame length (64bytes to 1518 bytes) can be founded.
+
+
+
